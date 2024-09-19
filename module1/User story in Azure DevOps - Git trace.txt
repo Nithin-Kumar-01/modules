@@ -1,0 +1,48 @@
+User story in Azure DevOps, complete with Git traceability
+
+Create a Work Item (User Story):
+Start by creating a work item (user story) in Azure DevOps. This represents the feature or functionality you want to implement.
+Provide a clear description, acceptance criteria, and any other relevant details.
+
+Branch Creation:
+From the work item, create a new Git branch. This branch will be where you develop the changes related to this user story.
+Naming conventions for branches can follow a pattern like userstory123-feature-name.
+
+Development:
+Developers work on the branch, making code changes related to the user story.
+Regularly commit changes to the branch.
+
+Pull Request (PR):
+Once the code changes are complete, create a pull request (PR) from the user story branch to the main branch (or any other target branch).
+The PR serves as a review mechanism, allowing other team members to provide feedback and ensure code quality.
+
+Linking Work Items and Commits:
+As part of the PR process, link the work item (user story) to the commits in the PR.
+This establishes traceability between the code changes and the original requirement.
+
+Code Review and Approval:
+Reviewers examine the changes in the PR.
+If everything looks good, approve the PR.
+
+Merge and Build:
+Merge the PR into the main branch.
+Azure DevOps triggers a build pipeline automatically.
+The build process compiles, tests, and packages the code.
+
+Release and Deployment:
+Set up release pipelines in Azure DevOps.
+Define stages (e.g., Dev, QA, Production) and deploy the code to each environment.
+Link the release to the original work item.
+
+Testing and Validation:
+Run tests (manual or automated) against the deployed application.
+Validate that the user story’s functionality works as expected.
+
+Estimation and Closure:
+Throughout the process, track time spent on the user story.
+Compare the actual effort with the initial estimation.
+Close the work item when the user story is fully implemented, tested, and deployed.
+
+Traceability:
+Azure DevOps provides end-to-end traceability by linking work items, branches, commits, builds, and releases.
+You can monitor this traceability using built-in reports and Analytics
